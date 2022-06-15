@@ -1,4 +1,4 @@
-Scenario. Cliente accede a la sala privada 
+Scenario: Cliente accede a la sala privada 
 
 Given el estudiante quiere una sala privada para realizar la entrevista. 
 When la empresa apruebe la solicitud del practicante 
