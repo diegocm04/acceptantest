@@ -1,5 +1,5 @@
-Scenario: Solicitar un plan de Membresia
+Scenario: Creacion de una cuenta
 
-Given La aplicacion cuenta con la seccion Membresia
-When El cliente presiones en Obtener Menbresia
-Then La aplicacion mostrara los planes que disponemos para el cliente
+Given La aplicacion cuenta con un formulario de registros
+When El cliente seleccione en "ingresar"
+Then La aplicacion mostrara los campos a rellenar para poder registrarse
